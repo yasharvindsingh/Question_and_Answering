@@ -17,4 +17,8 @@ Question (provide spaces even before punctuation marks): Where is John ?
 
 predicted:  kitchen
 
+How to run for custom input ?
+
+Since, the model has already been trained and saved (model.h5), so the training part can be skipped. But the program demands the creation of vocabulary every time the runtime has been set. While running for custom input run all the cells, except the training (model.fit) and then provide the input in the required format.
+
 ref: https://github.com/prashil2792/Question-Answering-System-Deep-Learning
